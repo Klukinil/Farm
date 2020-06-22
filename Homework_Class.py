@@ -17,7 +17,7 @@ class Cow(Animal):
         super().__init__(name, weight, animal_type, sound)
 
     def milking(self, milk_volume):
-        return f'{self.animal_type} дает {milk_volume} Л молока'
+        return f'{self.animal_type} дает {milk_volume} л молока'
 
 class Sheep(Animal):
     def __init__(self, name, weight, animal_type='Овца',sound ='Бееее' ):
